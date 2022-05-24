@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgoldenrod;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+    background-color: #808000;
+    position: fixed;
+}
+
+.logo-container {
+    width: 50%;
+}
+
+.logo {
+    width: auto;
+    height: 70px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+}
+
+.list-container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    list-style: none;
+}
+
+.list-container a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.hero {
+    width: 75vw;
+    height: 90vh;
+    padding: 20px;
+    gap: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.burguer-h1 {
+    font-size: 40px;
+}
+
+.parrafo-hero {
+    font-size: 20px;
+}
+
+.hero-img {
+    width: 50%;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+  }
+
+.button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    background: transparent;
+      background-color: transparent;
+    background-color: #6E6E6E;
+    color: floralwhite;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .first-section {
+    width: 100%;
+    height: 90vh;
+    background-color: #EADBB6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 55px;
+  }
+
+  .section-text p {
+      font-size: 20px;
+      width: 70%;
+  }
+
+  .h2-text {
+    font-size: 35px;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+  }
+
+  .card-uno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 20%;
+    gap: 10px;
+  }
+
+  .card-uno i {
+      font-size: 100px;
+      color: darkgoldenrod;
+  }
+
+  .card-dos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 20%;
+    gap: 10px;
+  }
+
+  .card-dos i {
+    font-size: 100px;
+    color: darkgoldenrod;
+}
+
+.card-tres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 20%;
+    gap: 10px;
+}
+
+.card-tres i {
+    font-size: 100px;
+    color: darkgoldenrod;
+}
+
+.second-section {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 55px;
+}
+
+.second-text p {
+    font-size: 20px;
+    width: 70%;
+}
+
+.card-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 20%;
+    gap: 10px;
+  }
+
+  .card-one i {
+      font-size: 100px;
+      color: #EADBB6;
+  }
+
+  .card-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 20%;
+    gap: 10px;
+  }
+
+  .card-two i {
+      font-size: 100px;
+      color: #EADBB6;
+  }
+
+  .card-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 20%;
+    gap: 10px;
+  }
+
+  .card-three i {
+      font-size: 100px;
+      color: #EADBB6;
+  }
+
+  .card-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 20%;
+    gap: 10px;
+  }
+
+  .card-four i {
+      font-size: 100px;
+      color: #EADBB6;
+  }
+
+  footer {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EADBB6;
+    font-size: 20px;
+    gap: 10px;
+  }
